@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body class="min-vh-100 text-center">
+    <div class="container">
+        <h1>Todo List</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-5 mt-4">
+            <input type="text" class="form-control" placeholder="Add What You Need To Do..." name="" id="toDoText">
+        </div>
+        <div class="col-md-5 mt-4">
+            <select class="form-select" id="mySelect" aria-label="Default select example">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted" id="completed">Uncompleted</option>
+              </select>
+        </div>
+        <input type="text" class="form-control my-4" placeholder="Search By Task Name..." name="" id="searchTodo">
+        <button class="btn btn-success w-50 m-auto" id="addToDo">Add To Do</button>
+        <div class="alert alert-danger w-75 m-auto my-4 d-none" id="emptyAlert">Please enter the task you'd like to add!</div>
+    </div>
+
+    <!-- <div class="bg-dark row px-0 mt-5">
+            <div class="col-8 fs-5 text-white d-flex justify-content-start align-items-center fs-4">work</div>
+            <div class="btn checkBtn rounded-0 col-2 py-3 bg-success d-flex justify-content-center">
+                <i class="fa-solid fa-check fs-3 text-white"></i>
+            </div>
+            <div class="btn deleteBtn rounded-0 col-2 py-3 bg-danger d-flex justify-content-center">
+                <i class="fa-solid fa-trash fs-3 text-white"></i>
+            </div>
+    </div> -->
+    <div class="todoList px-2 pb-5">
+
+    </div>
+    </div>
+
+
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+</html>
