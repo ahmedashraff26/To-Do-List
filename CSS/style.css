@@ -1,0 +1,15 @@
+body{
+    background: linear-gradient(120deg, rgb(226, 207, 129), rgb(232, 139, 97));
+}
+
+h1{
+    color: #fff;
+    font-size: 3.125rem;
+    margin: 50px 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #fff;
+    opacity: 0.5;
+}
